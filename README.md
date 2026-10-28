@@ -7,7 +7,9 @@
 биржи Deribit** по модели Black-76 — так же, как это делает сама биржа.
 
 📖 **Документация:** <https://denispokrovsky.github.io/deribit-option-pricer/>
-· [Требования](docs/requirements.md) · [Архитектура](docs/architecture.md)
+· [Требования](https://denispokrovsky.github.io/deribit-option-pricer/requirements.html)
+· [Архитектура](https://denispokrovsky.github.io/deribit-option-pricer/architecture.html)
+(исходники: `docs/requirements.md`, `docs/architecture.md`)
 
 ## Что делает программа
 
