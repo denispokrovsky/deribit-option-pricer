@@ -1,0 +1,10 @@
+build/
+cmake-build-*/
+.vs/
+.vscode/
+.idea/
+__pycache__/
+*.db
+result.csv
+# Assignment text, kept locally only.
+desc1.pdf

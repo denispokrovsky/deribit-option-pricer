@@ -1,0 +1,20 @@
+# Minimal Doxygen configuration; every other option keeps its default.
+PROJECT_NAME           = "Deribit Option Pricer"
+PROJECT_BRIEF          = "Black-76 pricing, implied volatility and Greeks for Deribit options"
+OUTPUT_DIRECTORY       = build/docs
+INPUT                  = README.md docs include src apps
+FILE_PATTERNS          = *.hpp *.cpp *.md
+RECURSIVE              = YES
+USE_MDFILE_AS_MAINPAGE = README.md
+INPUT_ENCODING         = UTF-8
+MARKDOWN_SUPPORT       = YES
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = NO
+SOURCE_BROWSER         = YES
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+GENERATE_TREEVIEW      = YES
+HAVE_DOT               = YES
+CALL_GRAPH             = NO
+WARN_IF_UNDOCUMENTED   = NO
+QUIET                  = YES
