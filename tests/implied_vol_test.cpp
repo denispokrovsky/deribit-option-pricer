@@ -56,7 +56,7 @@ TEST_P(ImpliedVolSolverTest, RejectsPricesOutsideArbitrageBounds)
 }
 
 INSTANTIATE_TEST_SUITE_P(AllSolvers, ImpliedVolSolverTest, ::testing::ValuesIn(dp::solverNames()),
-                         [](const auto& info) { return std::string{info.param}; });
+                         [](const auto& paramInfo) { return std::string{paramInfo.param}; });
 
 TEST(SafeguardedNewtonSolver, ConvergesWhereVegaIsTiny)
 {
